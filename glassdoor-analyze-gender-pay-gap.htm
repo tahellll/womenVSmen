@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Glassdoor- Analyze Gender Pay Gap | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Anlayze the Pay Gap for different job titles based on the gender" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="business,tabular data,jobs and career,employment,income" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" type="text/javascript">
+    window["pageRequestStartTime"] = 1650024692671;
+    window["pageRequestEndTime"] = 1650024692800;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/nilimajauhari/glassdoor-analyze-gender-pay-gap" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=1f6d99669e949b7dfa2b" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=f602e7231c8f2e08f52b" />
+  
+    
+ 
+      <script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="/nilimajauhari/glassdoor-analyze-gender-pay-gap" />
+    <meta property="og:title" content="Glassdoor- Analyze Gender Pay Gap" />
+    <meta property="og:description" content="Anlayze the Pay Gap for different job titles based on the gender" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/869852/1482109/19ddfe41d7a7500041fc32351b9e3c5c/dataset-card.png?t=2020-09-12-10-34-38" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+        <meta name="twitter:creator" content="@JauhariNeelima" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="pLtPUS3zTPk+TFsFYT+iIg==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Glassdoor- Analyze Gender Pay Gap","description":"### Context\n\nWant to know the base pay for different job roles, then this data set will be useful.\n\n\n### About the data set:\nThe data set has been taken from glassdoor and focuses on income for various job titles based on gender. As there have been many studies showcasing that women are paid less than men for the same job titles, this data set will be helpful in identifying the depth of the gender-based pay gap. The features of the data set are:\nJob Title\nGender\nAge\nPerfEval\nEducation\nDept \nSeniority\nBase Pay, and\nBonus\n\n\n\n### Acknowledgements\nThe data set has been taken from the website of Glassdoor. The license was not mentioned on the source.\n\n### Inspiration\nTo find out the pay gap between the gender for the same job title.","url":"https://www.kaggle.com/nilimajauhari/glassdoor-analyze-gender-pay-gap","version":1,"keywords":["subject, people and society, business","data type, tabular data","subject, people and society, jobs and career","subject, people and society, jobs and career, employment","subject, people and society, jobs and career, income"],"license":{"@type":"CreativeWork","name":"Other (specified in description)","url":""},"identifier":["869852"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Neelima Jauhari","url":"https://www.kaggle.com/nilimajauhari","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2884552-kg.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap/download","contentSize":"12922 bytes"}],"commentCount":2,"dateModified":"2020-09-12T10:29:56.213Z","discussionUrl":"https://www.kaggle.com/nilimajauhari/glassdoor-analyze-gender-pay-gap/discussion","alternateName":"Anlayze the Pay Gap for different job titles based on the gender","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/869852/1482109/19ddfe41d7a7500041fc32351b9e3c5c/dataset-card.png?t=2020-09-12-10-34-38","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":2},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":2375},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":17179},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":71}]}</script>
+
+
+  
+    
+
+  
+    
+    
+<script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8GDhb0sRQ19Fpvg6UQb84XGtfEamp5S9a_VZdbU8zXswoblTI3Xrz4ISMOVBbQKst1wwLZLD5LRpRh9tKmjshNjfa4RED5ZnaMmETLPHsAIvWQ',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTAwMjU1OTIsIlVzZXJJZCI6MH0.O2vAEbgedS6M8OtbzRKhcj4wCP5DFdLQRo6Dt6qGY1I',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        enableRapidash: true, 
+        
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="pLtPUS3zTPk+TFsFYT+iIg==" src="/static/assets/runtime.js?v=be116ad374ea6716d48c" data-turbolinks-track="reload"></script>
+  <script nonce="pLtPUS3zTPk+TFsFYT+iIg==" src="/static/assets/vendor.js?v=a2004e5f19533473e100" data-turbolinks-track="reload"></script>
+  <script nonce="pLtPUS3zTPk+TFsFYT+iIg==" src="/static/assets/app.js?v=430a2375759cc159e7da" data-turbolinks-track="reload"></script>
+    <script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="pLtPUS3zTPk+TFsFYT+iIg==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="pLtPUS3zTPk+TFsFYT+iIg==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":869852,"slug":"glassdoor-analyze-gender-pay-gap","title":"Glassdoor- Analyze Gender Pay Gap","description":"### Context\n\nWant to know the base pay for different job roles, then this data set will be useful.\n\n\n### About the data set:\nThe data set has been taken from glassdoor and focuses on income for various job titles based on gender. As there have been many studies showcasing that women are paid less than men for the same job titles, this data set will be helpful in identifying the depth of the gender-based pay gap. The features of the data set are:\nJob Title\nGender\nAge\nPerfEval\nEducation\nDept \nSeniority\nBase Pay, and\nBonus\n\n\n\n### Acknowledgements\nThe data set has been taken from the website of Glassdoor. The license was not mentioned on the source.\n\n### Inspiration\nTo find out the pay gap between the gender for the same job title.","viewCount":17179,"downloadCount":2375,"scriptCount":9,"topicCount":2,"owner":{"id":2884552,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2884552-kg.jpg","name":"Neelima Jauhari","profileUrl":"/nilimajauhari","slug":"nilimajauhari","userTier":"EXPERT"},"license":{"id":12,"name":"Other (specified in description)"},"overview":"Anlayze the Pay Gap for different job titles based on the gender","collaboratorList":{"owner":{"userId":2884552,"profileUrl":"/nilimajauhari","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2884552-kg.jpg","name":"Neelima Jauhari","slug":"nilimajauhari","userTier":"EXPERT","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/869852/1482109/19ddfe41d7a7500041fc32351b9e3c5c/dataset-cover.png?t=2020-09-12-10-34-38","data":{"totalSize":12922,"isFileset":true,"canSeeDownload":true,"firestorePath":"vNfUViCvr8AE14DIEmiO/versions/hHoVkFzbTj8pjMTo21gM","downloadUrl":"/datasets/nilimajauhari/nilimajauhari/download?datasetVersionNumber=1","versionId":1515965,"id":890751},"voteCount":71,"medalUrl":"/static/images/medals/datasets/silverl@2x.png","downloadUrl":"/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap/download","lastUpdateTime":"2020-09-12T10:29:56.213Z","datasetVersionNumber":1,"creatorDisplayName":"Neelima Jauhari","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/869852/1482109/19ddfe41d7a7500041fc32351b9e3c5c/dataset-card.png?t=2020-09-12-10-34-38","categories":{"tags":[{"id":11102,"name":"business","fullPath":"subject \u003E people and society \u003E business","listingUrl":"/datasets?group=public\u0026tagids=11102","description":"Businesses are organizational entities that drive economic activity. Explore the inner workings of things like HR practices, product sales, and customer happiness in these competitions, kernels, and datasets.","datasetCount":29464,"competitionCount":3,"notebookCount":25651,"tagUrl":"/tags/business","displayName":"Business","fontAwesomeIcon":"briefcase"},{"id":14101,"name":"tabular data","fullPath":"data type \u003E tabular data","listingUrl":"/datasets?group=public\u0026tagids=14101","description":"","datasetCount":3395,"competitionCount":146,"notebookCount":2890,"tagUrl":"/tags/tabular-data","displayName":"Tabular Data"},{"id":16414,"name":"jobs and career","fullPath":"subject \u003E people and society \u003E jobs and career","listingUrl":"/datasets?group=public\u0026tagids=16414","description":"","datasetCount":673,"competitionCount":1,"notebookCount":4784,"tagUrl":"/tags/jobs","displayName":"Jobs and Career"},{"id":8302,"name":"employment","fullPath":"subject \u003E people and society \u003E jobs and career \u003E employment","listingUrl":"/datasets?group=public\u0026tagids=8302","description":"Where does it pay to attend college? What impacts employee satisfaction and what makes them quit their jobs? Explore these questions and others in kernels and datasets with this tag.","datasetCount":228,"competitionCount":1,"notebookCount":105,"tagUrl":"/tags/employment","displayName":"Employment"},{"id":8309,"name":"income","fullPath":"subject \u003E people and society \u003E jobs and career \u003E income","listingUrl":"/datasets?group=public\u0026tagids=8309","description":"This tag contains datasets and kernels related to various incomes and salaries. Explore census-like data that covers city-level income down to individuals.","datasetCount":108,"notebookCount":86,"tagUrl":"/tags/income","displayName":"Income"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap","ownerTwitter":"JauhariNeelima","forumId":885237,"datasetVersionId":1482109,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":1,"diffType":"VERSIONED"},"@wf": "Datasets.DatasetMaterialDtoWireFormat3"});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script>
+<script nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="pLtPUS3zTPk&#x2B;TFsFYT&#x2B;iIg==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
